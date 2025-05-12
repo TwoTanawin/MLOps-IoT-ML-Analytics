@@ -8,7 +8,7 @@ def main():
     model = joblib.load(r'G:\AIT\MLOps\ProjectAnalytics\ml\model\raw\raw_gb_model.joblib')
 
     # Sample input
-    sample = np.array([0, 0, 0, 0])
+    sample = np.array([8.982, 2.643, 29.558, 414.272])
 
     # Reshape for model
     filtered_input = np.array(sample).reshape(1, -1)
